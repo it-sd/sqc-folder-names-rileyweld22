@@ -32,3 +32,8 @@ describe('folder names', function () {
     expect(newFolderName(folders1)).toBe('New Folder (5)')
   })
 })
+
+
+var arr = ["New Folder", "New Folder (2)", "New Folder (3)"]
+
+newFolderName(arr)
