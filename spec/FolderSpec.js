@@ -33,7 +33,6 @@ describe('folder names', function () {
   })
 })
 
-
-var arr = ["New Folder", "New Folder (2)", "New Folder (3)"]
+const arr = ['New Folder', 'New Folder (2)', 'New Folder (3)']
 
 newFolderName(arr)
